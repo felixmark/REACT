@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DigitalInput.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DigitalOutput.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="IDigitalInput.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="IDigitalOutput.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ReactionGameHandler.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Status.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="PinManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="H">
+      <UniqueIdentifier>{2f426808-e873-42ce-b292-c77d98bebe5d}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="CPP">
+      <UniqueIdentifier>{642aedb9-1787-4467-bb5a-5823ae82ffbf}</UniqueIdentifier>
+      <Extensions>*.cpp</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DigitalInput.h">
+      <Filter>H</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitalOutput.h">
+      <Filter>H</Filter>
+    </ClInclude>
+    <ClInclude Include="IDigitalInput.h">
+      <Filter>H</Filter>
+    </ClInclude>
+    <ClInclude Include="IDigitalOutput.h">
+      <Filter>H</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>H</Filter>
+    </ClInclude>
+    <ClInclude Include="ReactionGameHandler.h">
+      <Filter>H</Filter>
+    </ClInclude>
+    <ClInclude Include="Status.h">
+      <Filter>H</Filter>
+    </ClInclude>
+    <ClInclude Include="PinManager.h">
+      <Filter>H</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

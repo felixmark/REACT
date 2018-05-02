@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "REACT", "REACT\REACT.vcxproj", "{B85786A3-F1F9-4E87-9EEA-6BD7FA9495E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B85786A3-F1F9-4E87-9EEA-6BD7FA9495E8}.Debug|ARM.ActiveCfg = Debug|ARM
+		{B85786A3-F1F9-4E87-9EEA-6BD7FA9495E8}.Debug|ARM.Build.0 = Debug|ARM
+		{B85786A3-F1F9-4E87-9EEA-6BD7FA9495E8}.Release|ARM.ActiveCfg = Release|ARM
+		{B85786A3-F1F9-4E87-9EEA-6BD7FA9495E8}.Release|ARM.Build.0 = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25998F1D-0B09-4C94-A4B5-D899461AD909}
+	EndGlobalSection
+EndGlobal

@@ -5,8 +5,9 @@
 
 class Pin_manager {
 private:
-	static std::vector<int> reserved_pins_;
+	std::vector<int> reserved_pins_;
 public:
-	void reserve(int pin);
+	Pin_manager();
+	int reserve(int pin);
 	void release(int pin);
 };

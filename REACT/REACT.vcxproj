@@ -66,10 +66,14 @@
     <ClInclude Include="DigitalOutput.h" />
     <ClInclude Include="IDigitalInput.h" />
     <ClInclude Include="IDigitalOutput.h" />
+    <ClInclude Include="json.hpp" />
     <ClInclude Include="PinManager.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="ReactionGameHandler.h" />
     <ClInclude Include="Status.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pins.json" />
   </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <Link>

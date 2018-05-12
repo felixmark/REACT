@@ -1,7 +1,7 @@
-﻿Der Buildvorgang wurde am 02.05.2018 08:53:34 gestartet.
-     1>Projekt "C:\Users\felix\source\repos\REACT\REACT\REACT.vcxproj" auf Knoten "2", Build Ziel(e).
+﻿Der Buildvorgang wurde am 09.05.2018 10:40:33 gestartet.
+     1>Projekt "C:\Users\felix\source\repos\REACT_Repository\REACT\REACT.vcxproj" auf Knoten "2", Build Ziel(e).
      1>InitializeBuildStatus:
-         "C:\Users\felix\source\repos\REACT\REACT\obj\ARM\Debug\REACT.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+         "C:\Users\felix\source\repos\REACT_Repository\REACT\obj\ARM\Debug\REACT.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
        CreateRecipeFile:
        Das Ziel "CreateRecipeFile" wird übersprungen, da alle Ausgabedateien hinsichtlich der Eingabedateien aktuell sind.
        _ValidateValidArchitecture:
@@ -11,21 +11,25 @@
          Validating sources
        _CopySources:
          Copying sources remotely to 'sushipie.local'
-         Copying file 'C:\Users\felix\source\repos\REACT\REACT\DigitalInput.cpp' to '/home/nonagon/projects/REACT/DigitalInput.cpp'
-         Copying file 'C:\Users\felix\source\repos\REACT\REACT\DigitalOutput.cpp' to '/home/nonagon/projects/REACT/DigitalOutput.cpp'
-         Copying file 'C:\Users\felix\source\repos\REACT\REACT\IDigitalInput.cpp' to '/home/nonagon/projects/REACT/IDigitalInput.cpp'
-         Copying file 'C:\Users\felix\source\repos\REACT\REACT\IDigitalOutput.cpp' to '/home/nonagon/projects/REACT/IDigitalOutput.cpp'
-         Copying file 'C:\Users\felix\source\repos\REACT\REACT\main.cpp' to '/home/nonagon/projects/REACT/main.cpp'
-         Copying file 'C:\Users\felix\source\repos\REACT\REACT\Player.cpp' to '/home/nonagon/projects/REACT/Player.cpp'
-         Copying file 'C:\Users\felix\source\repos\REACT\REACT\ReactionGameHandler.cpp' to '/home/nonagon/projects/REACT/ReactionGameHandler.cpp'
-         Copying file 'C:\Users\felix\source\repos\REACT\REACT\Status.cpp' to '/home/nonagon/projects/REACT/Status.cpp'
-         Copying file 'C:\Users\felix\source\repos\REACT\REACT\DigitalInput.h' to '/home/nonagon/projects/REACT/DigitalInput.h'
-         Copying file 'C:\Users\felix\source\repos\REACT\REACT\DigitalOutput.h' to '/home/nonagon/projects/REACT/DigitalOutput.h'
-         Copying file 'C:\Users\felix\source\repos\REACT\REACT\IDigitalInput.h' to '/home/nonagon/projects/REACT/IDigitalInput.h'
-         Copying file 'C:\Users\felix\source\repos\REACT\REACT\IDigitalOutput.h' to '/home/nonagon/projects/REACT/IDigitalOutput.h'
-         Copying file 'C:\Users\felix\source\repos\REACT\REACT\Player.h' to '/home/nonagon/projects/REACT/Player.h'
-         Copying file 'C:\Users\felix\source\repos\REACT\REACT\ReactionGameHandler.h' to '/home/nonagon/projects/REACT/ReactionGameHandler.h'
-         Copying file 'C:\Users\felix\source\repos\REACT\REACT\Status.h' to '/home/nonagon/projects/REACT/Status.h'
+         Skipping 'C:\Users\felix\source\repos\REACT_Repository\REACT\DigitalInput.cpp', as it is up to date.
+         Skipping 'C:\Users\felix\source\repos\REACT_Repository\REACT\DigitalOutput.cpp', as it is up to date.
+         Skipping 'C:\Users\felix\source\repos\REACT_Repository\REACT\IDigitalInput.cpp', as it is up to date.
+         Skipping 'C:\Users\felix\source\repos\REACT_Repository\REACT\IDigitalOutput.cpp', as it is up to date.
+         Copying file 'C:\Users\felix\source\repos\REACT_Repository\REACT\main.cpp' to '/home/nonagon/projects/REACT/main.cpp'
+         Copying file 'C:\Users\felix\source\repos\REACT_Repository\REACT\PinManager.cpp' to '/home/nonagon/projects/REACT/PinManager.cpp'
+         Skipping 'C:\Users\felix\source\repos\REACT_Repository\REACT\Player.cpp', as it is up to date.
+         Skipping 'C:\Users\felix\source\repos\REACT_Repository\REACT\ReactionGameHandler.cpp', as it is up to date.
+         Skipping 'C:\Users\felix\source\repos\REACT_Repository\REACT\Status.cpp', as it is up to date.
+         Skipping 'C:\Users\felix\source\repos\REACT_Repository\REACT\DigitalInput.h', as it is up to date.
+         Skipping 'C:\Users\felix\source\repos\REACT_Repository\REACT\DigitalOutput.h', as it is up to date.
+         Skipping 'C:\Users\felix\source\repos\REACT_Repository\REACT\IDigitalInput.h', as it is up to date.
+         Skipping 'C:\Users\felix\source\repos\REACT_Repository\REACT\IDigitalOutput.h', as it is up to date.
+         Skipping 'C:\Users\felix\source\repos\REACT_Repository\REACT\json.hpp', as it is up to date.
+         Copying file 'C:\Users\felix\source\repos\REACT_Repository\REACT\PinManager.h' to '/home/nonagon/projects/REACT/PinManager.h'
+         Skipping 'C:\Users\felix\source\repos\REACT_Repository\REACT\Player.h', as it is up to date.
+         Skipping 'C:\Users\felix\source\repos\REACT_Repository\REACT\ReactionGameHandler.h', as it is up to date.
+         Skipping 'C:\Users\felix\source\repos\REACT_Repository\REACT\Status.h', as it is up to date.
+         Copying file 'C:\Users\felix\source\repos\REACT_Repository\REACT\pins.json' to '/home/nonagon/projects/REACT/pins.json'
        ClCompile:
          Starting remote build
          Compiling sources:
@@ -48,7 +52,76 @@
          Invoking 'g++'
          g++ -c -x c++ /home/nonagon/projects/REACT/main.cpp -g2 -gdwarf-2 -o "/home/nonagon/projects/REACT/obj/ARM/Debug/main.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++14
          main.cpp
+         In file included from /usr/include/c++/6/memory:65:0,
+                          from /home/nonagon/projects/REACT/main.cpp:22:
+         /usr/include/c++/6/bits/stl_uninitialized.h: In function ‘_ForwardIterator std::__uninitialized_move_if_noexcept_a(_InputIterator, _InputIterator, _ForwardIterator, _Allocator&) [with _InputIterator = nlohmann::basic_json<>*; _ForwardIterator = nlohmann::basic_json<>*; _Allocator = std::allocator<nlohmann::basic_json<> >]’:
+         /usr/include/c++/6/bits/stl_uninitialized.h:304:69: note: parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+            _GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(__last), __result, __alloc);
+                                                                              ^
+         In file included from /usr/include/c++/6/memory:65:0,
+                          from /home/nonagon/projects/REACT/main.cpp:22:
+         /usr/include/c++/6/bits/stl_uninitialized.h: In function ‘_ForwardIterator std::__uninitialized_move_if_noexcept_a(_InputIterator, _InputIterator, _ForwardIterator, _Allocator&) [with _InputIterator = nlohmann::basic_json<>*; _ForwardIterator = nlohmann::basic_json<>*; _Allocator = std::allocator<nlohmann::basic_json<> >]’:
+         /usr/include/c++/6/bits/stl_uninitialized.h:304:69: note: parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+            _GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(__last), __result, __alloc);
+                                                                              ^
+         /usr/include/c++/6/bits/stl_uninitialized.h: In function ‘_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = std::move_iterator<nlohmann::basic_json<>*>; _ForwardIterator = nlohmann::basic_json<>*; _Tp = nlohmann::basic_json<>]’:
+         /usr/include/c++/6/bits/stl_uninitialized.h:279:5: note: parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+              __uninitialized_copy_a(_InputIterator __first, _InputIterator __last,
+              ^~~~~~~~~~~~~~~~~~~~~~
+         /usr/include/c++/6/bits/stl_uninitialized.h:279:5: note: parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+         /usr/include/c++/6/bits/stl_uninitialized.h: In function ‘_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = std::move_iterator<nlohmann::basic_json<>*>; _ForwardIterator = nlohmann::basic_json<>*; _Tp = nlohmann::basic_json<>]’:
+         /usr/include/c++/6/bits/stl_uninitialized.h:279:5: note: parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+              __uninitialized_copy_a(_InputIterator __first, _InputIterator __last,
+              ^~~~~~~~~~~~~~~~~~~~~~
+         /usr/include/c++/6/bits/stl_uninitialized.h:279:5: note: parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+         /usr/include/c++/6/bits/stl_uninitialized.h:281:63: note: parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+              { return std::uninitialized_copy(__first, __last, __result); }
+                                                                        ^
+         /usr/include/c++/6/bits/stl_uninitialized.h:281:63: note: parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+              { return std::uninitialized_copy(__first, __last, __result); }
+                                                                        ^
+         
+         /usr/include/c++/6/bits/stl_uninitialized.h: In function ‘_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<nlohmann::basic_json<>*>; _ForwardIterator = nlohmann::basic_json<>*]’:
+         /usr/include/c++/6/bits/stl_uninitialized.h:107:5: note: parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+              uninitialized_copy(_InputIterator __first, _InputIterator __last,
+              ^~~~~~~~~~~~~~~~~~
+         /usr/include/c++/6/bits/stl_uninitialized.h: In function ‘_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<nlohmann::basic_json<>*>; _ForwardIterator = nlohmann::basic_json<>*]’:
+         /usr/include/c++/6/bits/stl_uninitialized.h:107:5: note: parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+              uninitialized_copy(_InputIterator __first, _InputIterator __last,
+              ^~~~~~~~~~~~~~~~~~
+         /usr/include/c++/6/bits/stl_uninitialized.h:107:5: note: parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+         /usr/include/c++/6/bits/stl_uninitialized.h:107:5: note: parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+         /usr/include/c++/6/bits/stl_uninitialized.h:126:41: note: parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+           __uninit_copy(__first, __last, __result);
+                                                  ^
+         /usr/include/c++/6/bits/stl_uninitialized.h:126:41: note: parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+           __uninit_copy(__first, __last, __result);
+                                                  ^
+         /usr/include/c++/6/bits/stl_uninitialized.h: In static member function ‘static _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<nlohmann::basic_json<>*>; _ForwardIterator = nlohmann::basic_json<>*; bool _TrivialValueTypes = false]’:
+         /usr/include/c++/6/bits/stl_uninitialized.h:68:9: note: parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+                  __uninit_copy(_InputIterator __first, _InputIterator __last,
+                  ^~~~~~~~~~~~~
+         /usr/include/c++/6/bits/stl_uninitialized.h:68:9: note: parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+         /usr/include/c++/6/bits/stl_uninitialized.h: In static member function ‘static _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<nlohmann::basic_json<>*>; _ForwardIterator = nlohmann::basic_json<>*; bool _TrivialValueTypes = false]’:
+         /usr/include/c++/6/bits/stl_uninitialized.h:68:9: note: parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+                  __uninit_copy(_InputIterator __first, _InputIterator __last,
+                  ^~~~~~~~~~~~~
+         /usr/include/c++/6/bits/stl_uninitialized.h:68:9: note: parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+         
+       /usr/include/c++/6/bits/stl_uninitialized.h(304,69): message : parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+       /usr/include/c++/6/bits/stl_uninitialized.h(279,5): message : parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+       /usr/include/c++/6/bits/stl_uninitialized.h(279,5): message : parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+       /usr/include/c++/6/bits/stl_uninitialized.h(281,63): message : parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+       /usr/include/c++/6/bits/stl_uninitialized.h(107,5): message : parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+       /usr/include/c++/6/bits/stl_uninitialized.h(107,5): message : parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+       /usr/include/c++/6/bits/stl_uninitialized.h(126,41): message : parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+       /usr/include/c++/6/bits/stl_uninitialized.h(68,9): message : parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
+       /usr/include/c++/6/bits/stl_uninitialized.h(68,9): message : parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ will change in GCC 7.1
          Done compiling '/home/nonagon/projects/REACT/main.cpp'
+         Invoking 'g++'
+         g++ -c -x c++ /home/nonagon/projects/REACT/PinManager.cpp -g2 -gdwarf-2 -o "/home/nonagon/projects/REACT/obj/ARM/Debug/PinManager.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++14
+         PinManager.cpp
+         Done compiling '/home/nonagon/projects/REACT/PinManager.cpp'
          Invoking 'g++'
          g++ -c -x c++ /home/nonagon/projects/REACT/Player.cpp -g2 -gdwarf-2 -o "/home/nonagon/projects/REACT/obj/ARM/Debug/Player.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++14
          Player.cpp
@@ -61,6 +134,12 @@
          /home/nonagon/projects/REACT/ReactionGameHandler.h:26:10: warning: ‘Reaction_game_handler::time_difference_’ will be initialized after [-Wreorder]
            int64_t time_difference_;
                    ^~~~~~~~~~~~~~~~
+         /home/nonagon/projects/REACT/ReactionGameHandler.h:22:6: warning:   ‘int Reaction_game_handler::rounds_’ [-Wreorder]
+           int rounds_;
+               ^~~~~~~
+         /home/nonagon/projects/REACT/ReactionGameHandler.cpp:6:1: warning:   when initialized here [-Wreorder]
+          Reaction_game_handler::Reaction_game_handler(
+          ^~~~~~~~~~~~~~~~~~~~~
          In file included from /home/nonagon/projects/REACT/ReactionGameHandler.cpp:1:0:
          /home/nonagon/projects/REACT/ReactionGameHandler.h: In constructor ‘Reaction_game_handler::Reaction_game_handler(std::shared_ptr<Digital_output>, std::shared_ptr<Digital_output>, std::shared_ptr<Digital_output>, std::shared_ptr<Digital_output>, std::shared_ptr<Digital_output>, std::shared_ptr<Digital_input>, std::shared_ptr<Digital_input>)’:
          /home/nonagon/projects/REACT/ReactionGameHandler.h:26:10: warning: ‘Reaction_game_handler::time_difference_’ will be initialized after [-Wreorder]
@@ -72,16 +151,10 @@
          /home/nonagon/projects/REACT/ReactionGameHandler.cpp:6:1: warning:   when initialized here [-Wreorder]
           Reaction_game_handler::Reaction_game_handler(
           ^~~~~~~~~~~~~~~~~~~~~
-         /home/nonagon/projects/REACT/ReactionGameHandler.h:22:6: warning:   ‘int Reaction_game_handler::rounds_’ [-Wreorder]
-           int rounds_;
-               ^~~~~~~
-         /home/nonagon/projects/REACT/ReactionGameHandler.cpp:6:1: warning:   when initialized here [-Wreorder]
-          Reaction_game_handler::Reaction_game_handler(
-          ^~~~~~~~~~~~~~~~~~~~~
          
-     1>C:\Users\felix\source\repos\REACT\REACT\ReactionGameHandler.h(26,10): warning : ‘Reaction_game_handler::time_difference_’ will be initialized after [-Wreorder]
-     1>C:\Users\felix\source\repos\REACT\REACT\ReactionGameHandler.h(22,6): warning : ‘int Reaction_game_handler::rounds_’ [-Wreorder]
-     1>C:\Users\felix\source\repos\REACT\REACT\ReactionGameHandler.cpp(6,1): warning : when initialized here [-Wreorder]
+     1>C:\Users\felix\source\repos\REACT_Repository\REACT\ReactionGameHandler.h(26,10): warning : ‘Reaction_game_handler::time_difference_’ will be initialized after [-Wreorder]
+     1>C:\Users\felix\source\repos\REACT_Repository\REACT\ReactionGameHandler.h(22,6): warning : ‘int Reaction_game_handler::rounds_’ [-Wreorder]
+     1>C:\Users\felix\source\repos\REACT_Repository\REACT\ReactionGameHandler.cpp(6,1): warning : when initialized here [-Wreorder]
          Done compiling '/home/nonagon/projects/REACT/ReactionGameHandler.cpp'
          Invoking 'g++'
          g++ -c -x c++ /home/nonagon/projects/REACT/Status.cpp -g2 -gdwarf-2 -o "/home/nonagon/projects/REACT/obj/ARM/Debug/Status.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++14
@@ -90,27 +163,27 @@
        Link:
          Linking objects
          Invoking 'ld'
-         g++ -o "/home/nonagon/projects/REACT/bin/ARM/Debug/REACT.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/nonagon/projects/REACT/obj/ARM/Debug/DigitalInput.o /home/nonagon/projects/REACT/obj/ARM/Debug/DigitalOutput.o /home/nonagon/projects/REACT/obj/ARM/Debug/IDigitalInput.o /home/nonagon/projects/REACT/obj/ARM/Debug/IDigitalOutput.o /home/nonagon/projects/REACT/obj/ARM/Debug/main.o /home/nonagon/projects/REACT/obj/ARM/Debug/Player.o /home/nonagon/projects/REACT/obj/ARM/Debug/ReactionGameHandler.o /home/nonagon/projects/REACT/obj/ARM/Debug/Status.o -lwiringPi
+         g++ -o "/home/nonagon/projects/REACT/bin/ARM/Debug/REACT.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/nonagon/projects/REACT/obj/ARM/Debug/DigitalInput.o /home/nonagon/projects/REACT/obj/ARM/Debug/DigitalOutput.o /home/nonagon/projects/REACT/obj/ARM/Debug/IDigitalInput.o /home/nonagon/projects/REACT/obj/ARM/Debug/IDigitalOutput.o /home/nonagon/projects/REACT/obj/ARM/Debug/main.o /home/nonagon/projects/REACT/obj/ARM/Debug/PinManager.o /home/nonagon/projects/REACT/obj/ARM/Debug/Player.o /home/nonagon/projects/REACT/obj/ARM/Debug/ReactionGameHandler.o /home/nonagon/projects/REACT/obj/ARM/Debug/Status.o -lwiringPi
          Done linking, output file name: '/home/nonagon/projects/REACT/bin/ARM/Debug/REACT.out'
-         Copying file '/home/nonagon/projects/REACT/bin/ARM/Debug/REACT.out' to 'C:\Users\felix\source\repos\REACT\REACT\bin\ARM\Debug\REACT.out'
-         REACT.vcxproj -> C:\Users\felix\source\repos\REACT\REACT\bin\ARM\Debug\REACT.out
+         Copying file '/home/nonagon/projects/REACT/bin/ARM/Debug/REACT.out' to 'C:\Users\felix\source\repos\REACT_Repository\REACT\bin\ARM\Debug\REACT.out'
+         REACT.vcxproj -> C:\Users\felix\source\repos\REACT_Repository\REACT\bin\ARM\Debug\REACT.out
        RemotePostBuildEvent:
          Description: export pin 17 using the gpio utility so that we can execute the blink program without sudo
          Invoking 'gpio export 17 out', working directory: '/home/nonagon/projects/REACT'
        FinalizeBuildStatus:
-         Die Datei "C:\Users\felix\source\repos\REACT\REACT\obj\ARM\Debug\REACT.tlog\unsuccessfulbuild" wird gelöscht.
-         Aktualisieren des Timestamps von "C:\Users\felix\source\repos\REACT\REACT\obj\ARM\Debug\REACT.tlog\REACT.lastbuildstate".
-     1>Die Erstellung von Projekt "C:\Users\felix\source\repos\REACT\REACT\REACT.vcxproj" ist abgeschlossen (Build Ziel(e)).
+         Die Datei "C:\Users\felix\source\repos\REACT_Repository\REACT\obj\ARM\Debug\REACT.tlog\unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "C:\Users\felix\source\repos\REACT_Repository\REACT\obj\ARM\Debug\REACT.tlog\REACT.lastbuildstate".
+     1>Die Erstellung von Projekt "C:\Users\felix\source\repos\REACT_Repository\REACT\REACT.vcxproj" ist abgeschlossen (Build Ziel(e)).
 
 Der Buildvorgang wurde erfolgreich ausgeführt.
 
-       "C:\Users\felix\source\repos\REACT\REACT\REACT.vcxproj" (Build Ziel) (1) ->
+       "C:\Users\felix\source\repos\REACT_Repository\REACT\REACT.vcxproj" (Build Ziel) (1) ->
        (ClCompile Ziel) -> 
-         C:\Users\felix\source\repos\REACT\REACT\ReactionGameHandler.h(26,10): warning : ‘Reaction_game_handler::time_difference_’ will be initialized after [-Wreorder]
-         C:\Users\felix\source\repos\REACT\REACT\ReactionGameHandler.h(22,6): warning : ‘int Reaction_game_handler::rounds_’ [-Wreorder]
-         C:\Users\felix\source\repos\REACT\REACT\ReactionGameHandler.cpp(6,1): warning : when initialized here [-Wreorder]
+         C:\Users\felix\source\repos\REACT_Repository\REACT\ReactionGameHandler.h(26,10): warning : ‘Reaction_game_handler::time_difference_’ will be initialized after [-Wreorder]
+         C:\Users\felix\source\repos\REACT_Repository\REACT\ReactionGameHandler.h(22,6): warning : ‘int Reaction_game_handler::rounds_’ [-Wreorder]
+         C:\Users\felix\source\repos\REACT_Repository\REACT\ReactionGameHandler.cpp(6,1): warning : when initialized here [-Wreorder]
 
     3 Warnung(en)
     0 Fehler
 
-Verstrichene Zeit 00:00:56.94
+Verstrichene Zeit 00:01:11.98

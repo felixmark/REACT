@@ -25,7 +25,9 @@
     <ClCompile Include="Status.cpp">
       <Filter>CPP</Filter>
     </ClCompile>
-    <ClCompile Include="PinManager.cpp" />
+    <ClCompile Include="PinManager.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="H">
@@ -62,5 +64,9 @@
     <ClInclude Include="PinManager.h">
       <Filter>H</Filter>
     </ClInclude>
+    <ClInclude Include="json.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pins.json" />
   </ItemGroup>
 </Project>

@@ -20,15 +20,20 @@
 #include <string>
 #include <chrono>
 #include <memory>
+#include <fstream>
 #include "DigitalInput.h"
 #include "DigitalOutput.h"
 #include "Player.h"
 #include "ReactionGameHandler.h"
+#include "json.hpp"
+#include "PinManager.h"
 
 
 // Namespaces
 using namespace std;
 using namespace chrono;
+
+using json = nlohmann::json;
 
 
 // Reactiongamehandler
@@ -74,14 +79,29 @@ void btn_player2_isr() {
 int main(void) {
 	wiringPiSetup();
 
+	// Load pin configuration
+	ifstream file("pins.json");
+	json json_object;
+	file >> json_object;
+
+	// Pin manager for handling pins
+	Pin_manager pm;
+
 	// Create Variables and Inputs/Outputs
-	shared_ptr<Digital_input> btn_p1 = make_digital_input("btn_p1", 7, PUD_DOWN);
-	shared_ptr<Digital_input> btn_p2 = make_digital_input("btn_p2", 0, PUD_DOWN);
-	shared_ptr<Digital_output> p1_won_led = make_digital_output("p1_won_led", 2, Status::OFF);
-	shared_ptr<Digital_output> p2_won_led = make_digital_output("p2_won_led", 3, Status::OFF);
-	shared_ptr<Digital_output> prepare_led = make_digital_output("prepare_led", 4, Status::OFF);
-	shared_ptr<Digital_output> warn_led = make_digital_output("warn_led", 8, Status::OFF);
-	shared_ptr<Digital_output> piezo = make_digital_output("piezo_speaker", 1, Status::OFF);
+	shared_ptr<Digital_input> btn_p1 = make_digital_input(
+		"btn_p1", pm.reserve(json_object["p1_button"].get<int>()), PUD_DOWN);
+	shared_ptr<Digital_input> btn_p2 =  make_digital_input(
+		"btn_p2", pm.reserve(json_object["p2_button"].get<int>()), PUD_DOWN);
+	shared_ptr<Digital_output> p1_won_led = make_digital_output(
+		"p1_won_led", pm.reserve(json_object["p1_led"].get<int>()), Status::OFF);
+	shared_ptr<Digital_output> p2_won_led = make_digital_output(
+		"p2_won_led", pm.reserve(json_object["p2_led"].get<int>()), Status::OFF);
+	shared_ptr<Digital_output> prepare_led = make_digital_output(
+		"prepare_led", pm.reserve(json_object["prepare_led"].get<int>()), Status::OFF);
+	shared_ptr<Digital_output> warn_led = make_digital_output(
+		"warn_led", pm.reserve(json_object["state"].get<int>()), Status::OFF);
+	shared_ptr<Digital_output> piezo = make_digital_output(
+		"piezo_speaker", pm.reserve(json_object["piezo_speaker"].get<int>()), Status::OFF);
 	
 	// Create Reactiongamehandler
 	reaction_game_handler = make_shared<Reaction_game_handler>(

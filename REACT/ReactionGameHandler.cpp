@@ -48,7 +48,7 @@ bool Reaction_game_handler::run_round(int round) {
 	print_title();
 	cout << "\t\t" "Round #" << round + 1 << endl;
 
-	// Wait for 2 sec
+	// Wait for 2 seconds
 	delay(2000);
 
 	// Prepare (in 5 - 10 secs the WARN LED lights up)
@@ -84,13 +84,13 @@ bool Reaction_game_handler::run_round(int round) {
 		}
 		cout << "\t\t" << verlierer << " has LOST round #" << round + 1 << "! (Pushed button in the preparation phase)" << endl;
 	} else {
-		// NOW the player should press their button
+		// NOW the players should press their button
 		btn_p1_pressed_ = false;
 		btn_p2_pressed_ = false;
 		warn_led_->write(Status::ON);
 		piezo_speaker_->write(Status::ON);
 
-		// Wait until button press or 3 secs
+		// Wait until button press or 3 seconds
 		begin = system_clock::now().time_since_epoch();
 		while (
 			!btn_p1_pressed_ && !btn_p2_pressed_ &&
@@ -106,7 +106,7 @@ bool Reaction_game_handler::run_round(int round) {
 		// Round is over
 		string gewinner = "";
 		if (btn_p1_pressed_ || btn_p2_pressed_) {
-			// Somebody has pressed a button
+			// Somebody has pushed a button
 			if (btn_p1_pressed_) {
 				// Player 1 has won the round
 				gewinner = player1_->get_name();

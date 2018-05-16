@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project>
-  <LocalLibPath>C:\Users\felix\source\repos\REACT_Repository\REACT\bin\ARM\Debug\REACT.out</LocalLibPath>
-  <ObjPaths>C:\Users\felix\source\repos\REACT_Repository\REACT\obj\ARM\Debug\</ObjPaths>
+  <LocalLibPath>C:\Users\nettanon16\source\repos\REACT\REACT\bin\ARM\Debug\REACT.out</LocalLibPath>
+  <ObjPaths>C:\Users\nettanon16\source\repos\REACT\REACT\obj\ARM\Debug\</ObjPaths>
   <Configuration>Debug</Configuration>
   <Platform>ARM</Platform>
 </Project>

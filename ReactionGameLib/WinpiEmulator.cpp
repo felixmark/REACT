@@ -79,7 +79,7 @@ void Win_pi_emulator::subscribe_rising(int pin, void(* callback)())
 Win_pi_emulator::~Win_pi_emulator()
 {
 	poller_active_ = false;
-	poller_.join();
+	//poller_.join();
 }
 
 void Win_pi_emulator::trigger_rising(int i)
@@ -129,5 +129,5 @@ void Win_pi_emulator::keyboard_poller()
 
 Win_pi_emulator::Win_pi_emulator() : poller_active_{true}
 {
-	poller_ = std::thread{ [this] {keyboard_poller(); } };
+	//poller_ = std::thread{ [this] {keyboard_poller(); } };
 }

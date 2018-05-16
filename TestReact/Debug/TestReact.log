@@ -1,2 +1,6 @@
-﻿  playertest.cpp
+﻿  stdafx.cpp
+  digital_input_test.cpp
+  player_test.cpp
+  Code wird generiert...
+     Bibliothek "C:\Users\nettanon16\source\repos\REACT\Debug\TestReact.lib" und Objekt "C:\Users\nettanon16\source\repos\REACT\Debug\TestReact.exp" werden erstellt.
   TestReact.vcxproj -> C:\Users\nettanon16\source\repos\REACT\Debug\TestReact.dll

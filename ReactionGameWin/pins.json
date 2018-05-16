@@ -1,0 +1,9 @@
+{
+  "p1_button": 7,
+  "p2_button": 0,
+  "p1_led": 2,
+  "p2_led": 3,
+  "prepare_led": 4,
+  "state": 8,
+  "piezo_speaker": 1
+}

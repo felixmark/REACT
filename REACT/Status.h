@@ -1,5 +1,5 @@
 #pragma once
-#include <wiringPi.h>
+#include "piproxy.h"
 
 enum class Status { ON, OFF };
 

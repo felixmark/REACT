@@ -1,0 +1,38 @@
+﻿  DigitalInput.cpp
+  DigitalOutput.cpp
+  IDigitalInput.cpp
+  IDigitalOutput.cpp
+  PinManager.cpp
+  Player.cpp
+  ReactionGameHandler.cpp
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(252): warning C4566: Das durch den universellen Zeichennamen "\u2588" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(252): warning C4566: Das durch den universellen Zeichennamen "\u2557" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(253): warning C4566: Das durch den universellen Zeichennamen "\u2588" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(253): warning C4566: Das durch den universellen Zeichennamen "\u2554" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(253): warning C4566: Das durch den universellen Zeichennamen "\u2550" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(253): warning C4566: Das durch den universellen Zeichennamen "\u2557" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(253): warning C4566: Das durch den universellen Zeichennamen "\u255D" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(253): warning C4566: Das durch den universellen Zeichennamen "\u255A" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(254): warning C4566: Das durch den universellen Zeichennamen "\u2588" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(254): warning C4566: Das durch den universellen Zeichennamen "\u2554" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(254): warning C4566: Das durch den universellen Zeichennamen "\u255D" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(254): warning C4566: Das durch den universellen Zeichennamen "\u2557" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(254): warning C4566: Das durch den universellen Zeichennamen "\u2551" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(255): warning C4566: Das durch den universellen Zeichennamen "\u2588" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(255): warning C4566: Das durch den universellen Zeichennamen "\u2554" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(255): warning C4566: Das durch den universellen Zeichennamen "\u2550" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(255): warning C4566: Das durch den universellen Zeichennamen "\u2557" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(255): warning C4566: Das durch den universellen Zeichennamen "\u255D" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(255): warning C4566: Das durch den universellen Zeichennamen "\u2551" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(256): warning C4566: Das durch den universellen Zeichennamen "\u2588" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(256): warning C4566: Das durch den universellen Zeichennamen "\u2551" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(256): warning C4566: Das durch den universellen Zeichennamen "\u2557" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(256): warning C4566: Das durch den universellen Zeichennamen "\u255A" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(257): warning C4566: Das durch den universellen Zeichennamen "\u255A" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(257): warning C4566: Das durch den universellen Zeichennamen "\u2550" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+c:\users\nettanon16\source\repos\react\react\reactiongamehandler.cpp(257): warning C4566: Das durch den universellen Zeichennamen "\u255D" dargestellte Zeichen kann in der aktuellen Codepage (1252) nicht dargestellt werden.
+  Status.cpp
+  winpi.cpp
+  WinpiEmulator.cpp
+  Code wird generiert...
+  ReactionGameLib.vcxproj -> C:\Users\nettanon16\source\repos\REACT\Debug\ReactionGameLib.lib

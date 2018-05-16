@@ -1,6 +1,6 @@
 #pragma once
 #include "IDigitalInput.h"
-#include <wiringPi.h>
+#include "piproxy.h"
 #include <string>
 #include <iostream>
 #include <memory>

@@ -65,6 +65,9 @@
       <Filter>H</Filter>
     </ClInclude>
     <ClInclude Include="json.hpp" />
+    <ClInclude Include="piproxy.h">
+      <Filter>H</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="pins.json" />

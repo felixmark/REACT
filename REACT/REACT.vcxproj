@@ -68,6 +68,7 @@
     <ClInclude Include="IDigitalOutput.h" />
     <ClInclude Include="json.hpp" />
     <ClInclude Include="PinManager.h" />
+    <ClInclude Include="piproxy.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="ReactionGameHandler.h" />
     <ClInclude Include="Status.h" />
